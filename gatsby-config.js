@@ -7,7 +7,7 @@ module.exports = {
     {
       resolve: `gatsby-theme-garden`,
       options: {
-        contentPath: `${__dirname}/content/garden`,
+        contentPath: `${__dirname}/content`,
         rootNote: `/Dave's-Public-Notes`,
         roamUrl: `https://roamresearch.com/#/app/DaveLuPublic`,
         roamEmail: process.env.ROAM_RESEARCH_EMAIL,
